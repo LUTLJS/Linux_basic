@@ -1,0 +1,18 @@
+who am i------查看用户
+sudo adduser lilei----添加用户
+sudo -l lilei------切换用户
+groups lilei----查看用户所属用户组
+----将其他用户加入sudo用户组：
+sudo usermod -G sudo lilei
+
+----删除用户lilei
+sudo deluser lilei --remove-home
+
+----变更文件所有者
+sudo chown shiyanlou iphone
+
+-----修改文件权限
+chmod 700 iphone
+rwx分别为4，2，1，三种权限可自由组合，例如6，3，5，7
+
+
